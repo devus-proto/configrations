@@ -1,3 +1,12 @@
 spring:
   application:
     name: devus-service-api
+
+acl:
+  group:
+    public: *.*.*.*
+    internal: *.*.*.*
+  rules:
+    public: /api/*
+    internal: /api/admin/*
+    
