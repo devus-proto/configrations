@@ -4,9 +4,9 @@ spring:
 
 acl:
   group:
-    public: *.*.*.*
-    internal: *.*.*.*
+    public: "*.*.*.*"
+    internal: "*.*.*.*"
   rules:
-    public: /api/*
-    internal: /api/admin/*
+    public: "/api/*"
+    internal: "/api/admin/*"
     
