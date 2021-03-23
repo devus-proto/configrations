@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: devus-service-api
+
+acl:
+  group:
+    public: "*.*.*.*"
+    internal: "10.*.*.*"
+  rules:
+    public: "/api/*"
+    internal: "/api/admin/*"
+    
